@@ -1,0 +1,93 @@
+body  {
+    background-color: rgb(243, 231, 241);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+hr{
+    width: 5%;
+    margin-bottom: 50px;
+    margin-top: -20px;
+    color:magenta ;
+}
+h1{
+    letter-spacing: 4px;
+    font-size: 250%;
+    color: rgb(135, 20, 135);
+}
+
+img{
+    width: 28%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow:  7px -4px magenta
+    
+    
+    
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow:  0 5px 10px 0px rgb(189, 187, 187);
+    width: 40%;
+    height: 350px;
+    text-align: center;
+    padding: 30px;
+    letter-spacing: 1px;
+    color: grey;
+}
+
+#name{
+    color: rgb(135, 20, 135);
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+#position{
+    color:magenta ;
+    font-size: 80%;
+}
+
+#info{
+    font-size: 80% ;
+}
+button{
+    border-radius: 5px;
+    background-color: rgb(245, 220, 243);
+    border-style: solid;
+    border-block-end-color: magenta;
+    border-block-start-color: rgb(253, 141, 253);
+    border-right-color:magenta ;
+    border-left-color:rgb(253, 141, 253) ;
+    color: magenta;
+    padding: 5px;
+    margin: 2px;
+}
+
+button:hover{
+    background-color: magenta;
+    color: white;
+    transition-delay: 0.05s;
+}
+
+@media (max-width: 900px) {
+   img {width: 70%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow:  7px -4px magenta}
+
+    #position{
+        color:magenta ;
+        font-size: 70%;
+    }
+    #info{
+        font-size: 60% ;
+    }
+    button{
+        font-size: 10px;
+    }
+    .container{
+        padding: 40px;
+    }
+}

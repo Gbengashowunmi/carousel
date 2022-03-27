@@ -9,7 +9,7 @@ let random = document.getElementById("Random");
 
 
 let staff = [
-    { imag : "Damilola_Cousn_20181003_234704.jpg",
+    { imag : "/images/Damilola_Cousn_20181003_234704.jpg",
     name:'Gbenga Showunmi',
     position : 'WEB DEVELOPER',
     info : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"

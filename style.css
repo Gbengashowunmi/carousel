@@ -92,7 +92,9 @@ button:hover{
     .container{
         padding: 40px;
     }
-    hr{
-       width:15%;
+}
+      @media (max-width: 3in){
+          hr{
+           width:15%;
     }
 }

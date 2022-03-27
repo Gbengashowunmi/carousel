@@ -92,4 +92,7 @@ button:hover{
     .container{
         padding: 40px;
     }
+    hr{
+       width:15px;
+    }
 }
